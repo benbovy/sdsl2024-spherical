@@ -65,7 +65,7 @@ class: middle, center, dark-slide
 | :-------- | :---------------- | :------------------------ |
 | S2Geometry   | C++            | https://github.com/google/s2geometry |
 | S2Geography  | C++            | https://github.com/paleolimbot/s2geography |
-| ???          | Rust           | ??? |
+| Geo ?        | Rust           | https://github.com/georust/geo |
 
 ---
 
@@ -360,3 +360,4 @@ ds.dggs.cell_envelopes()
   - Which features do we need (roadmap)?
 - Leveraging low-level libraries in high-level languages
 - Integration with geo data-frame and data-cube libraries
+- Sphere vs. ellipsoid
