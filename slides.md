@@ -91,6 +91,14 @@ void init_predicates(pybind11::module& m) {
 
 ---
 
+# Integration with (geo) data-frame and data-cube libraries
+
+- R's `sf`: global flag `sf_use_s2(TRUE)` + conversion methods
+- Python's `geopandas`: `GeographyArray` ?
+- Python's `xvec`: `GeographyIndex` ?
+
+---
+
 class: middle, center, dark-slide
 
 # Gridded data
@@ -344,3 +352,11 @@ ds.dggs.cell_envelopes()
 - plotting it directly via `lonboard` (H3, S2)
 
 ---
+
+# Conclusion (open questions)
+
+- Use cases
+  - Do we really need spherical geometry / DGGS?
+  - Which features do we need (roadmap)?
+- Leveraging low-level libraries in high-level languages
+- Integration with geo data-frame and data-cube libraries
