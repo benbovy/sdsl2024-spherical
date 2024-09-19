@@ -359,5 +359,6 @@ ds.dggs.cell_envelopes()
   - Do we really need spherical geometry / DGGS?
   - Which features do we need (roadmap)?
 - Leveraging low-level libraries in high-level languages
+  - Fragmented ecosystem
 - Integration with geo data-frame and data-cube libraries
 - Sphere vs. ellipsoid
